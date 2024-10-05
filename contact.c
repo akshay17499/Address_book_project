@@ -19,7 +19,7 @@ void createContact(AddressBook *addressBook)
 {
     int i=addressBook->contactCount;
    printf("enter name:");
-   scanf("%s",addressBook->contacts[i].name);
+   scanf("%49[^\n]",addressBook->contacts[i].name);
    
    printf("enter phone number : ");
     int flag=1;
