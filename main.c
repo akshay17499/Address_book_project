@@ -6,6 +6,7 @@ int main()
    printf("enter operation");
    AddressBook addressBook;
    addressBook.contactCount=0;
+   initialize(&addressBook);
    while(1)
    {
      scanf("%d",&operation);
