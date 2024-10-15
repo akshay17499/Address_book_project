@@ -4,7 +4,6 @@
 #define MAX_CONTACTS 100
 #include <stdio.h>
 #include <string.h>
-
 typedef struct {
     char name[50];
     char phone[20];
@@ -22,5 +21,6 @@ void editContact(AddressBook *addressBook);
 void deleteContact(AddressBook *addressBook);
 void listContacts(AddressBook *addressBook);
 void initialize(AddressBook *addressBook);
+void add_t(AddressBook *addressBook);
 
 #endif
